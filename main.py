@@ -7,7 +7,9 @@ def plusot(x, y):
     print(x + y)
     return x + y
 #2 -
-
+def minusot(x, y):
+    print(x - y)
+    return x - y
 #3 *
 def reizot(x, y):
     print(x * y)
@@ -19,3 +21,7 @@ if veids == "+":
 
 if veids == "*":
     reizot(pirmais, otrais)
+    
+elif veids == "-":
+    minusot(pirmais, otrais)
+
