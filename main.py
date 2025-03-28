@@ -13,8 +13,13 @@ def minusot(x, y):
 #3 *
 
 #4 /
+def dalisot(x, y):
+    print(x / y)
+    return x / y
 
 if veids == "+":
     plusot(pirmais, otrais)
 elif veids == "-":
     minusot(pirmais, otrais)
+elif veids == "/"
+    dalisot(pirmais, otrais)
