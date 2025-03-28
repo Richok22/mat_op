@@ -7,11 +7,14 @@ def plusot(x, y):
     print(x + y)
     return x + y
 #2 -
-if veids == "-":
-    print(pirmais - otrais)
+def minusot(x, y):
+    print(x - y)
+    return x - y
 #3 *
 
 #4 /
 
 if veids == "+":
     plusot(pirmais, otrais)
+elif veids == "-":
+    minusot(pirmais, otrais)
