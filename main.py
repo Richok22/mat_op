@@ -1,11 +1,16 @@
-pirmais = input("Izvelies pirmo skaitli:")
-otrais = input("Izvēlies otro skaitli:")
-veids = input("Izvelies veidu (1/2/3/4):")
+pirmais = int(input("Izvēlies pirmo skaitli: "))
+otrais = int(input("Izvēlies otro skaitli: "))
+veids = input("Izvēlies veidu (+,-,*,/): ")
 
 #1 +
-
+def plusot(x, y):
+    print(x + y)
+    return x + y
 #2 -
 
 #3 *
 
 #4 /
+
+if veids == "+":
+    plusot(pirmais, otrais)
