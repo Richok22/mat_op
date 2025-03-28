@@ -11,7 +11,9 @@ def minusot(x, y):
     print(x - y)
     return x - y
 #3 *
-
+def reizot(x, y):
+    print(x * y)
+    return x * y
 #4 /
 def dalisot(x, y):
     print(x / y)
@@ -19,7 +21,12 @@ def dalisot(x, y):
 
 if veids == "+":
     plusot(pirmais, otrais)
+
+if veids == "*":
+    reizot(pirmais, otrais)
+    
 elif veids == "-":
     minusot(pirmais, otrais)
+
 elif veids == "/"
     dalisot(pirmais, otrais)
